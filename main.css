@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Nerko One', cursive;
-    background: dodgerblue;
+    background: hsl(195deg 53% 79%)
 }
 
 /* UTILITIES */
@@ -27,6 +27,29 @@ header {
 header h1 {
     color: white;
     transform: uppercase;
-    font-size: 100px;
+    font-size: 80px;
     text-shadow: 2px 2px black;
+}
+
+.main-content {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    padding-left: 147px;
+    padding-top: 10px;
+    /*background: green;*/
+}
+
+.cards img {
+    float: left;
+    width: 200px;
+    height: 230px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.textcard img{
+    color:pink;
 }
