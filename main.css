@@ -50,6 +50,23 @@ header h1 {
     background-color: white;
 }
 
-.textcard img{
-    color:pink;
+.imagine1 {
+    display: block;
+}
+
+.imagine2, .imagine3, .imagine4, .imagine5, .imagine6, .imagine7 {
+    display:none;
+}
+
+.cards:hover .imagine1 {
+    display: none;
+}
+
+.cards:hover .imagine2,
+.cards:hover .imagine3,
+.cards:hover .imagine4,
+.cards:hover .imagine5,
+.cards:hover .imagine6,
+.cards:hover .imagine7 {
+    display: block;
 }
